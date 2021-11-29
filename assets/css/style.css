@@ -1,3 +1,22 @@
-p {
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Heading, Logo, Nav bar */
+
+header {
+    background-color: #425a81;
+    color: white;
+    display: block;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header li {
+    list-style-type: none;
 }
