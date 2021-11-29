@@ -22,8 +22,9 @@ h1 {
 }
 
 #menu #title {
-    line-height: 80px;
-    font-family: Playfair Display, serif;
+     font-family: Playfair Display, serif;
+     margin-left: 20px;
+     font-size: 60px;
 }
 
 #menu a {
@@ -35,6 +36,12 @@ h1 {
 #menu li {
     list-style-type: none;
     margin-right: 20px;
-    float: right;
+    display: inline-block;
 }
+
+.right {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
