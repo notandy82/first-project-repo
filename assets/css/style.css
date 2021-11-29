@@ -10,6 +10,8 @@
 
 header {
     background-color: #425a81;
+    position: fixed;
+    max-width: 100%;
 }
 
 #title {
@@ -44,4 +46,9 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* body */
 
+#wreck_image {
+    max-width: 100%;
+    max-height: auto;
+}
