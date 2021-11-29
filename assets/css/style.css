@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@200&family=Playfair+Display&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,15 +10,31 @@
 
 header {
     background-color: #425a81;
+}
+
+#title {
+    float: left;
+}
+
+h1 {
+    background-color: #425a81;
     color: white;
-    display: block;
 }
 
-header a {
+#menu #title {
+    line-height: 80px;
+    font-family: Playfair Display, serif;
+}
+
+#menu a {
     text-decoration: none;
-    color: inherit;
+    color: white;
+    background-color: #425a81;
 }
 
-header li {
+#menu li {
     list-style-type: none;
+    margin-right: 20px;
+    float: right;
 }
+
