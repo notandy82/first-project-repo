@@ -11,7 +11,7 @@
 header {
     background-color: #425a81;
     position: fixed;
-    max-width: 100%;
+    margin: 0;
 }
 
 #title {
@@ -39,16 +39,23 @@ h1 {
     list-style-type: none;
     margin-right: 20px;
     display: inline-block;
+    max-width: 100%;
 }
 
 .right {
     float: right;
     font-family: 'Montserrat', sans-serif;
+    
+}
+
+.container {
+    display: flex;
 }
 
 /* body */
 
 #wreck_image {
+    background: url(/assets/images/wreck_image.jpg);
     max-width: 100%;
-    max-height: auto;
+    height: 600px;
 }
