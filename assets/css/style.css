@@ -12,21 +12,20 @@ header {
     background-color: #425a81;
     position: fixed;
     margin: 0;
+    display: block;
+    width: 100%
 }
 
 #title {
     float: left;
+    font-family: Playfair Display, serif;
+    margin-left: 20px;
+    font-size: 60px;
 }
 
 h1 {
     background-color: #425a81;
     color: white;
-}
-
-#menu #title {
-     font-family: Playfair Display, serif;
-     margin-left: 20px;
-     font-size: 60px;
 }
 
 #menu a {
@@ -46,10 +45,6 @@ h1 {
     float: right;
     font-family: 'Montserrat', sans-serif;
     
-}
-
-.container {
-    display: flex;
 }
 
 /* body */
