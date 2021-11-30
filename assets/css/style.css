@@ -18,14 +18,9 @@ header {
 
 #title {
     float: left;
-    font-family: Playfair Display, serif;
+    font-family: 'Playfair Display', serif;
     margin-left: 20px;
     font-size: 60px;
-}
-
-h1 {
-    background-color: #425a81;
-    color: white;
 }
 
 #menu a {
@@ -38,7 +33,6 @@ h1 {
     list-style-type: none;
     margin-right: 20px;
     display: inline-block;
-    max-width: 100%;
 }
 
 .right {
@@ -47,6 +41,15 @@ h1 {
     
 }
 
+#menu a:hover {
+    text-decoration: none;
+    color: #425a81;
+    background-color: white;
+}
+
+.active {
+    text-decoration: underline;
+}
 /* body */
 
 #wreck_image {
