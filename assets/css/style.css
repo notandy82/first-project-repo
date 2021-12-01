@@ -38,13 +38,15 @@ header {
 .right {
     float: right;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     
 }
 
-#menu a:hover {
+#menu .right a:hover {
     text-decoration: none;
     color: #425a81;
     background-color: white;
+    border-radius: 12px;
 }
 
 .active {
