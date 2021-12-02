@@ -60,10 +60,14 @@ header {
     height: 600px;
 }
 
-.flex-container1 {
+.flex-container {
     display: flex;
 }
 
+p {
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 400;
+}
 /* footer */
 
 footer {
