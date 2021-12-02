@@ -64,10 +64,11 @@ header {
     display: flex;
 }
 
-p {
-    font-family: 'Montserrat' sans-serif;
+.text {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+
 /* footer */
 
 footer {
