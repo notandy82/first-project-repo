@@ -60,6 +60,10 @@ header {
     height: 600px;
 }
 
+.flex-container1 {
+    display: flex;
+}
+
 /* footer */
 
 footer {
