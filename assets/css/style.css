@@ -52,6 +52,15 @@ header {
 .active {
     text-decoration: underline;
 }
+
+/* Responsive navbar */
+
+@media only screen and (max-width: 1200px) {
+    .right {
+        float: none;
+    }
+}
+
 /* body */
 
 #hero_image {
@@ -71,6 +80,15 @@ header {
 
 .flex-container div {
     margin: 10px;
+}
+
+/* Responsive main page */
+
+@media only screen and (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        height: auto;
+    }
 }
 
 /* footer */
