@@ -61,12 +61,16 @@ header {
 }
 
 .flex-container {
-    display: flex;
+    display: flex;    
 }
 
 .text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+}
+
+.flex-container div {
+    margin: 10px;
 }
 
 /* footer */
@@ -79,4 +83,5 @@ footer {
     font-family: 'Montserrat', sans-serif;
     color: white;
     vertical-align: middle;    
+    width: 100%;
 }
