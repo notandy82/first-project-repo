@@ -60,7 +60,6 @@ header {
 @media only screen and (max-width: 1200px) {
     .right {
         clear: left;
-        float: left;
         display: inline;
     }    
 }
