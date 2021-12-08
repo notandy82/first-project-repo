@@ -6,12 +6,12 @@
     border: none;    
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
 a {
     text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Heading, Logo, Nav bar */
@@ -66,8 +66,12 @@ header {
     border-radius: 12px;
 }
 
-.active {
-    text-decoration: underline;
+.menu a:hover {
+    color: #425a81;
+}
+
+.nav-links .active {
+    text-decoration: underline white;
 }
 
 input[type=checkbox] {
