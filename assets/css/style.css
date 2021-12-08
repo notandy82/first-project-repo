@@ -33,10 +33,6 @@ header {
     color: white;
 }
 
-.logo a {
-    text-decoration: none;
-}
-
 .navbar {
     display: flex;
     padding: 20px;
@@ -76,6 +72,12 @@ header {
 
 input[type=checkbox] {
     display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
 }
 
 /* body */
