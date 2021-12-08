@@ -6,6 +6,11 @@
     border: none;    
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 /* Heading, Logo, Nav bar */
 
 header {
@@ -18,38 +23,38 @@ header {
     top: 0; 
 }
 
-#hero-outer {
-    margin-top: 60px;
-}
-
-#logo {
-    float: left;
+.logo {    
     font-family: 'Playfair Display', serif;
     margin-left: 20px;
     font-size: 280%;
     color: white;
 }
 
-#menu a {
+.navbar {
+    display: flex;
+    padding: 20px;
+    background-color: #425a81;
+    color: white;
+}
+
+.nav-links a {
+    color: white;
     text-decoration: none;
+}
+
+.menu {    
     color: inherit;
     background-color: #425a81;
 }
 
-#menu li {
+.menu li {
     list-style-type: none;
     margin-right: 20px;
     display: inline;
+    list-style: none;   
 }
 
-.right {
-    float: right;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    
-}
-
-#menu .right a:hover {
+.menu .right a:hover {
     text-decoration: none;
     color: #425a81;
     background-color: white;
@@ -104,6 +109,8 @@ footer {
     vertical-align: middle;    
     width: 100%;    
 }
+
+/* media body*/
 
 #link-list .flex-container {
     border-style: solid;
