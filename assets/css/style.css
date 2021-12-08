@@ -10,6 +10,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* Heading, Logo, Nav bar */
 
@@ -30,11 +33,17 @@ header {
     color: white;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 .navbar {
     display: flex;
     padding: 20px;
     background-color: #425a81;
     color: white;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-links a {
