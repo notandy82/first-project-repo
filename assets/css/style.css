@@ -87,7 +87,7 @@ body {
     font-weight: 400;
 }
 
-.flex-container div {
+.flex-container img {
     margin: 10px;
     max-width: 70%;    
 }

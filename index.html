@@ -10,32 +10,46 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <h1 id="logo">The Wreck of the Providentz</h1>
-        </a>
-        <nav>           
-            <ul id="menu">                
-                <li class="right">
-                    <a href="#">Contact</a>
-                </li>
-                <li class="right">
-                    <a href="#">News</a>
-                </li>
-                <li class="right">
-                    <a href="media.html">Media</a>
-                </li>
-                <li class="right">
-                    <a href="#">History</a>
-                </li>
-                <li class="right active">
-                    <a href="index.html">Home</a>
-                </li>                   
+        <nav class="navbar">
+            <div>
+                <a href="index.html">
+                    <h1 class="logo"><em>The Providentz</em></h1>
+                </a>
+            </div>          
+            <ul class="nav-links">  
+                
+                <!-- Checkbox-burger menu method: Naincy Mourya @ makeuseof.com -->
+
+                <input type="checkbox" id="toggle" />
+                <label for="toggle" class="hamburger">&#9776;</label>            
+                
+                <div class="menu">
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">News</a>
+                    </li>
+                    <li>
+                        <a href="media.html">Media</a>
+                    </li>
+                    <li>
+                        <a href="#">History</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                </div>                   
             </ul>
         </nav>
-    </header>
+    </header>    
+    
     <section class="hero-outer">
         <div id="hero_image"></div>
     </section>
+
+    <!-- Flexbox code from w3schools.com -->
+    
     <section id="ship-intro">
         <div class="flex-container">
             <div>
@@ -51,9 +65,6 @@
      
          </div>
     </section>
-
-<!-- Flexbox code from w3schools.com -->
-
     
     <footer>
         <div>
