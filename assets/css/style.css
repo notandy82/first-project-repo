@@ -86,6 +86,12 @@ input[type=checkbox] {
 
 /* body */
 
+.title {
+    font-family: 'Playfair Display', serif;
+    color: #425a81;
+    font-size: 200%;
+}
+
 body {
     background-color: #e8eaea;
 }
@@ -102,9 +108,7 @@ body {
     height: 500px;
 }
 
-.flex-container {
-    display: flex;    
-}
+
 
 .text {
     font-family: 'Montserrat', sans-serif;
