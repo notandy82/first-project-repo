@@ -104,7 +104,7 @@ body {
 }
 
 #hero_image {
-    background: url(../images/wreck_image_edit.jpg) no-repeat center center;
+    background: url(..//images/wreck_image_edit.jpg) no-repeat center center;
     max-width: 100%;
     height: 500px;
 }
