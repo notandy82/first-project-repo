@@ -90,6 +90,7 @@ input[type=checkbox] {
     font-family: 'Playfair Display', serif;
     color: #425a81;
     font-size: 200%;
+    padding-left: 10px;
 }
 
 body {
@@ -155,6 +156,10 @@ footer {
     height: auto;
 }
 
+.history {
+    display: flex;
+    padding: 10px;
+}
 /* Media queries */
 
 /* Responsive navbar from Naincy Mourya @ makeuseof.com */
