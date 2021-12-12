@@ -29,7 +29,7 @@ header {
 .logo {    
     font-family: 'Playfair Display', serif;
     margin-left: 20px;
-    font-size: 280%;
+    font-size: 150%;   
     color: white;
 }
 
@@ -50,6 +50,7 @@ header {
 .menu {    
     color: inherit;
     background-color: #425a81;
+    display: flex;
 }
 
 .menu li {
@@ -182,6 +183,7 @@ footer {
     .menu li:hover {
         display: inline-block;
         background-color: #425a81;
+        transition: 0.3s ease;
     }
 
     .menu li + li {
