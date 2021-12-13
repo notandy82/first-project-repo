@@ -110,10 +110,17 @@ body {
     height: 500px;
 }
 
+#ship-intro {
+    padding-top: 10px;
+}
 
 .text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+}
+
+.flexbox {
+    display: flex;
 }
 
 .flex-container img {
