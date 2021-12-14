@@ -121,6 +121,7 @@ body {
 
 .flexbox {
     display: flex;
+    padding-left: 10px;
 }
 
 .flex-container img {
@@ -128,6 +129,10 @@ body {
     max-width: 70%;    
 }
 
+#map {
+    width: 100%;
+    height: auto;
+}
 /* footer */
 
 footer {
