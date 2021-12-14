@@ -129,7 +129,7 @@ body {
     max-width: 70%;    
 }
 
-#map {
+.flex-img {
     width: 100%;
     height: auto;
 }
