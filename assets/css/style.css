@@ -154,7 +154,8 @@ footer {
     font-family: 'Montserrat', sans-serif;
     color: white;
     vertical-align: middle;    
-    width: 100%;    
+    width: 100%;
+    bottom: 0px;
 }
 
 /* media body */
