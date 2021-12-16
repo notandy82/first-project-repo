@@ -16,16 +16,6 @@ body {
 
 /* Heading, Logo, Nav bar */
 
-header {
-    background-color: #425a81;
-    position: fixed;
-    margin: 0;
-    display: block;
-    width: 100%;
-    color: white;
-    top: 0; 
-}
-
 .logo {    
     font-family: 'Playfair Display', serif;
     margin-left: 20px;
@@ -121,7 +111,7 @@ body {
 
 .flexbox {
     display: flex;
-    padding-left: 10px;
+    padding: 10px;
 }
 
 .flex-container img {
@@ -143,12 +133,15 @@ div p {
 }
 
 .following {    
-    display: flex;
     margin: 10px;
 }
 
 .following li {
     list-style: none;
+}
+
+.social_logo {
+    max-width: 80%;
 }
 
 /* footer */
@@ -195,6 +188,9 @@ footer {
 /* Responsive navbar from Naincy Mourya @ makeuseof.com */
 
 @media (max-width: 768px) {
+    .title {
+        margin: 5px;
+    }
     .menu {
         display: none;
         position: absolute;
@@ -203,6 +199,10 @@ footer {
         left: 0;
         text-align: center;
         padding: 16px 0;
+    }
+
+    .navbar {
+        align-items: center;
     }
 
     #hero-image {
@@ -220,7 +220,7 @@ footer {
         margin-top: 12px;
     }
 
-    input[type=checkbox]:checked ~ .menu {
+    input[type=checkbox]:checked ~ .menu{
         display: block;
     }
 
@@ -228,7 +228,7 @@ footer {
         display: block;        
     }
 
-    .history {
+    .history, .flexbox {
         flex-direction: column;
     }
 }
