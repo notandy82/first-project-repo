@@ -11,7 +11,7 @@ a {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;    
 }
 
 /* Heading, Logo, Nav bar */
@@ -81,6 +81,11 @@ input[type=checkbox] {
     font-family: 'Playfair Display', serif;
     color: #425a81;
     font-size: 200%;
+    padding-left: 10px;
+    margin: 30px 0;
+}
+
+.subtitle {
     padding-left: 10px;
 }
 
@@ -181,17 +186,14 @@ footer {
 }
 
 .history {
-    display: flex;
-    padding: 10px;
+    display: flex;    
 }
+
 /* Media queries */
 
 /* Responsive navbar from Naincy Mourya @ makeuseof.com */
 
 @media (max-width: 768px) {
-    .title {
-        margin: 5px;
-    }
     .menu {
         display: none;
         position: absolute;
