@@ -30,6 +30,9 @@ body {
     color: white;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0; 
 }
 
 .nav-links a {
