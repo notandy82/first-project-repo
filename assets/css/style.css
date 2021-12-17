@@ -235,6 +235,14 @@ footer {
         max-width: 100%;
         height: auto;
     }
+
+    #hero-image {
+        height: 425px;
+    }
+    
+    #hero-outer {
+        height: 425px;
+    }
 }
 
 /* Media query for flexboxes */
