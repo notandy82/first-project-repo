@@ -186,7 +186,8 @@ footer {
 }
 
 .history {
-    display: flex;    
+    display: flex;
+    padding: 10px;
 }
 
 /* Media queries */
@@ -233,6 +234,11 @@ footer {
 
     .history, .flexbox {
         flex-direction: column;
+    }
+
+    .flex-img {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 }
 
