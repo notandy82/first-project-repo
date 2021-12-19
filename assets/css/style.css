@@ -202,6 +202,12 @@ footer {
     padding: 10px;
 }
 
+.social_logo {
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #425a81;
+}
+
 /* Media queries */
 
 /* Responsive navbar from Naincy Mourya @ makeuseof.com */
