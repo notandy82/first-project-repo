@@ -11,7 +11,8 @@ a {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Montserrat', sans-serif;
+   
 }
 
 /* Heading, Logo, Nav bar */
@@ -76,6 +77,14 @@ input[type=checkbox] {
     display: none;
     font-size: 24px;
     user-select: none;
+}
+
+/* Code for anchor tag fix from Adrian Garner on stackoverflow */
+:target::before {
+    content: "";
+    display: block;
+    height: 100px; /* fixed header height*/
+    margin: -100px 0 0; /* negative fixed header height */
 }
 
 /* body */
