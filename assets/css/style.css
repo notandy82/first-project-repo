@@ -205,7 +205,6 @@ footer {
 
 /* Media queries */
 
-/* Responsive navbar from Naincy Mourya @ makeuseof.com */
 
 @media (max-width: 768px) {
     .menu {        
@@ -219,6 +218,7 @@ footer {
     .navbar {
         align-items: center;
         padding: 0;
+        flex-direction: column;
     }
 
     .history, .flexbox {
