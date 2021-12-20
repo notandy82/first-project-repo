@@ -48,7 +48,7 @@ body {
 .menu {
     color: inherit;
     background-color: #425a81;
-    display: flex;
+    
 }
 
 .menu li {
@@ -67,20 +67,6 @@ body {
 
 .menu a:hover {
     color: #425a81;
-}
-
-.nav-links .active {
-    text-decoration: underline white;
-}
-
-input[type=checkbox] {
-    display: none;
-}
-
-.hamburger {
-    display: none;
-    font-size: 24px;
-    user-select: none;
 }
 
 /* Code for anchor tag fix from Adrian Garner on stackoverflow */
@@ -222,9 +208,7 @@ footer {
 /* Responsive navbar from Naincy Mourya @ makeuseof.com */
 
 @media (max-width: 768px) {
-    .menu {
-        display: none;
-        position: absolute;
+    .menu {        
         background-color: #425a81;
         right: 0;
         left: 0;
@@ -234,24 +218,7 @@ footer {
 
     .navbar {
         align-items: center;
-    }
-
-    .menu li:hover {
-        display: inline-block;
-        background-color: #425a81;
-        transition: 0.3s ease;
-    }
-
-    .menu li+li {
-        margin-top: 12px;
-    }
-
-    input[type=checkbox]:checked~.menu {
-        display: block;
-    }
-
-    .hamburger {
-        display: block;
+        padding: 0;
     }
 
     .history, .flexbox {
