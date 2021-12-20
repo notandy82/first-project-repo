@@ -188,7 +188,6 @@ footer {
     border-width: 1px;
     border-color: #425a81;
     margin: 30px 10px;
-
 }
 
 #link-list a {
@@ -255,8 +254,7 @@ footer {
         display: block;
     }
 
-    .history,
-    .flexbox {
+    .history, .flexbox {
         flex-direction: column;
     }
 
@@ -268,6 +266,11 @@ footer {
     #hero_image {
         background: url('../images/wreck_image_mobile.jpg') no-repeat center center;
         width: 100%;
+    }
+
+    .content {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
