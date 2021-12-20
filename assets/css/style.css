@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;    
+    border: none;
 }
 
 a {
@@ -12,15 +12,19 @@ a {
 
 body {
     font-family: 'Montserrat', sans-serif;
-   
+}
+
+.content {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 /* Heading, Logo, Nav bar */
 
-.logo {    
+.logo {
     font-family: 'Playfair Display', serif;
     margin-left: 20px;
-    font-size: 280%;   
+    font-size: 280%;
     color: white;
 }
 
@@ -33,7 +37,7 @@ body {
     justify-content: space-between;
     position: fixed;
     left: 0;
-    right: 0; 
+    right: 0;
 }
 
 .nav-links a {
@@ -41,17 +45,17 @@ body {
     text-decoration: none;
 }
 
-.menu {    
+.menu {
     color: inherit;
     background-color: #425a81;
     display: flex;
 }
 
 .menu li {
-    
+
     margin-right: 20px;
     display: inline;
-    list-style: none;   
+    list-style: none;
 }
 
 .menu li:hover {
@@ -83,8 +87,10 @@ input[type=checkbox] {
 :target::before {
     content: "";
     display: block;
-    height: 100px; /* fixed header height*/
-    margin: -100px 0 0; /* negative fixed header height */
+    height: 100px;
+    /* fixed header height*/
+    margin: -100px 0 0;
+    /* negative fixed header height */
 }
 
 /* body */
@@ -108,7 +114,7 @@ body {
 .hero-outer {
     height: 500px;
     width: 100%;
-    overflow: hidden;    
+    overflow: hidden;
 }
 
 #hero_image {
@@ -133,7 +139,7 @@ body {
 
 .flex-container img {
     margin: 10px;
-    max-width: 70%;    
+    max-width: 70%;
 }
 
 .flex-img {
@@ -149,7 +155,7 @@ div p {
     padding-left: 10px;
 }
 
-.following {    
+.following {
     margin: 10px;
 }
 
@@ -170,9 +176,9 @@ footer {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    vertical-align: middle;    
+    vertical-align: middle;
     width: 100%;
-    bottom: 0px;
+    bottom: 0px;    
 }
 
 /* media body */
@@ -182,7 +188,7 @@ footer {
     border-width: 1px;
     border-color: #425a81;
     margin: 30px 10px;
-   
+
 }
 
 #link-list a {
@@ -191,7 +197,7 @@ footer {
 
 #link-list img {
     border-style: ridge;
-    border-width: 2px;  
+    border-width: 2px;
     border-color: #425a81;
     max-width: 90%;
     height: auto;
@@ -230,26 +236,27 @@ footer {
     .navbar {
         align-items: center;
     }
-    
+
     .menu li:hover {
         display: inline-block;
         background-color: #425a81;
         transition: 0.3s ease;
     }
 
-    .menu li + li {
+    .menu li+li {
         margin-top: 12px;
     }
 
-    input[type=checkbox]:checked ~ .menu{
+    input[type=checkbox]:checked~.menu {
         display: block;
     }
 
     .hamburger {
-        display: block;        
+        display: block;
     }
 
-    .history, .flexbox {
+    .history,
+    .flexbox {
         flex-direction: column;
     }
 
@@ -271,9 +278,7 @@ footer {
         flex-direction: column;
         height: auto;
         max-width: 100%;
-        padding: 10px;        
+        padding: 10px;
     }
-   
+
 }
-
-
