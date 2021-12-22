@@ -147,6 +147,8 @@ div p {
 
 .following li {
     list-style: none;
+    font-size: 150%;
+    padding: 4px;
 }
 
 .social_logo {
