@@ -1,25 +1,50 @@
 # The Providentz - An Irish Ship in Norwegian Waters
-> This site presents the historical background and current research status of an 18th century Irish ship that sank off the coast of Norway.
-> Live demo [_here_](https://notandy82.github.io/first-project-repo/). <!-- If you have the project hosted somewhere, include the link here. -->
+The Providentz is a website built with the aim of presenting all relevant information about an 18th century shipwreck found in Norway.  The site is targeted towards any person with an interest in maritime history or archaeology.  The Providentz will provide any research relating to the shipwreck, as well as any community outreach or projects inspired by the shipwreck.
+Live demo [_here_](https://notandy82.github.io/first-project-repo/). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Screenshots](#screenshots)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
 * [Setup](#setup)
 * [Usage](#usage)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
+* [Credits](#credits)
 * [Contact](#contact)
-<!-- * [License](#license) -->
+
 
 
 ## General Information
 - One of the most important parts of an archaeologist's job is to present available knowledge about finds to the public.  Generally, this is done through academic journals and other publications.  These journals are often difficult to access and require paid subscriptions.  Individual publications can be very expensive.
 - There is a push in archaeology to make information more accessible.  This website is meant to increase the reach of the information by providing a public source of information.
 
+
+## Features
+### Existing Features
+- Navigation Bar
+1. The navigation bar contains the title of the page on the left and the navigation links to the right when viewed on a desktop.  When viewed on a mobile device, the links appear below the title.
+2. The navigation bar is fixed at the top of the website.
+3. As the site is a single page site, this allows the user to be able to easily jump from one section to another without having to scroll back to the top of the page or use the 'back' button in the browser.
+- The landing page image
+1. The image chosen provides a quick glimpse at some of the artefacts found on the shipwreck to create interest in the find.
+2. A smaller version of the image is used for mobile devices to reduce load time and provide a more suitable size of photo for a smaller screen.
+3. A brief paragraph describes the significance of the wreck.
+- History
+1. The history of the ship as a working vessel is described. This includes the origin of the ship and the circumstances around its sinking.
+2. The history of the ship as a find is then described, including the search, discovery, and verification.
+3. All images included can be opened in new tabs for closer viewing.
+- Media
+1. The links all open in a new tab.
+2. The presence of articles from different countries shows the international interest in the project.
+- News
+1. This is a section to provide information on the most recent project relating to the wreck.
+2. A link is provided to take the user to more information about that project.
+3. The two main participants in the research of the shipwreck are listed with all social media and homepage links provided.
+
+### Features to Implement
+- A Norwegian version of the website.
+- A news archive page for when there are more items.
+- A photo lightbox would be a preferrable method of displaying photos once more are made available, as this would allow users to view the images without taking them away from the main page.
 
 
 ## Technologies Used
@@ -28,16 +53,12 @@
 - Github
 
 
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+## Testing
+- HTML Validator
+- CSS Validator
+- Responsive design
 
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Setup
@@ -47,30 +68,9 @@ Proceed to describe how to install / setup one's local environment / get started
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
 
 
-## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
-
-
-## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- A Norwegian version of the page
-- A photo gallery
-- A news archive page once there are more updates to the work.
-
-
-## Acknowledgements
+## Credits
 Give credit here.
 - This project was inspired by...
 - This project was based on [this tutorial](https://www.example.com).
@@ -78,11 +78,4 @@ Give credit here.
 
 
 ## Contact
-Created by Andrew Stanek(notandystanek@gmail.com) - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by Andrew Stanek (notandystanek@gmail.com)
