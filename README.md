@@ -1,22 +1,30 @@
 # The Providentz - An Irish Ship in Norwegian Waters
 The Providentz is a website built with the aim of presenting all relevant information about an 18th century shipwreck found in Norway.  The site is targeted towards any person with an interest in maritime history or archaeology.  The Providentz will provide any research relating to the shipwreck, as well as any community outreach or projects inspired by the shipwreck.
-Live demo [_here_](https://notandy82.github.io/first-project-repo/). <!-- If you have the project hosted somewhere, include the link here. -->
+Live demo [_here_](https://notandy82.github.io/first-project-repo/). 
 
 ## Table of Contents
-* [General Info](#general-information)
+* [UX](#ux)
 * [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
-* [Setup](#setup)
+* [Deployment](#deployment)
 * [Usage](#usage)
 * [Credits](#credits)
 * [Contact](#contact)
 
 
 
-## General Information
+## UX
+### Site Owner goals
 - One of the most important parts of an archaeologist's job is to present available knowledge about finds to the public.  Generally, this is done through academic journals and other publications.  These journals are often difficult to access and require paid subscriptions.  Individual publications can be very expensive.
 - There is a push in archaeology to make information more accessible.  This website is meant to increase the reach of the information by providing a public source of information.
+### Site User goals
+#### First time user
+- The user is able to find basic information about the ship.
+- The user is able to find more detailed background information about the origins of the ship, what happened to it, and what work is being done.
+- The user is directed to other links where they can find more information.
+#### Return user
+-The user can easily find any information that has been updated since their last visit to the site.
 
 
 ## Features
@@ -54,17 +62,23 @@ Live demo [_here_](https://notandy82.github.io/first-project-repo/). <!-- If you
 
 
 ## Testing
-- HTML Validator
+- HTML
+  - One warning and no errors were returned when run through the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnotandy82.github.io%2Ffirst-project-repo%2F)
 - CSS Validator
+  - No errors were returned when run through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnotandy82.github.io%2Ffirst-project-repo%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Responsive design
+  - The design was checked for responsiveness in multiple ways:
+    - Virtually
+      - Chrome developer tools
+      - http://ami.responsivedesign.is/
+    - Physically
+      - Using personally owned desktop, laptops, a Samsung Galaxy S9, and an iPad.
 
 
 
-
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
+## Deployment
+- The site was deployed to GitHub Pages as follows:
+  - In the 
 
 
 ## Usage
