@@ -15,8 +15,8 @@
 
 <body>
     <header>
-        <nav class="navbar">                            
-            <h1 class="logo"><em>The Providentz</em></h1>                          
+        <nav class="navbar">
+            <h1 class="logo"><em>The Providentz</em></h1>
             <div class="menu">
                 <ul class="nav-links">
                     <li>
@@ -31,19 +31,19 @@
                     <li>
                         <a href="#page_4">News</a>
                     </li>
-                </ul>                
+                </ul>
             </div>
         </nav>
     </header>
 
     <section class="hero-outer">
-        <div id="hero_image"></div>
+        <div id="hero_image" title="Finds on the shipwreck, Credit: Frode Kvalø"></div>
     </section>
 
     <!-- Flexbox code from w3schools.com -->
 
     <section id="ship-intro" class="content">
-        <h3 class="subtitle">An Irish Ship in Norwegian Waters</h3>
+        <h2 class="title">An Irish Ship in Norwegian Waters</h2>
         <div class="flexbox">
             <div>
                 <p class="text">
@@ -141,6 +141,7 @@
     </section>
 
     <!-- links to coverage of the find -->
+    <!-- individual links use a logo for the site and consistent format for easy duplication -->
     <section class="content">
         <h2 class="title" id="page_3"><em>The Providentz</em> in the media</h2>
     </section>
@@ -196,14 +197,14 @@
         </div>
         <div class="flex-container">
             <div>
-                <a href="https://www.nrk.no/sorlandet/her-henter-de-opp-skatter-fra-det-300-ar-gamle-skipsvraket-_the-providentz_-1.15662919" target="_blank" title="Link opens in a new tab, site is in Norwegian"
-                    rel="noopener"><img
+                <a href="https://www.nrk.no/sorlandet/her-henter-de-opp-skatter-fra-det-300-ar-gamle-skipsvraket-_the-providentz_-1.15662919"
+                    target="_blank" title="Link opens in a new tab, site is in Norwegian" rel="noopener"><img
                         src="data:image/png;base64,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"
                         alt="NRK logo"></a>
             </div>
             <div>
-                <a href="https://www.nrk.no/sorlandet/her-henter-de-opp-skatter-fra-det-300-ar-gamle-skipsvraket-_the-providentz_-1.15662919" target="_blank" title="Link opens in a new tab"
-                    rel="noopener">
+                <a href="https://www.nrk.no/sorlandet/her-henter-de-opp-skatter-fra-det-300-ar-gamle-skipsvraket-_the-providentz_-1.15662919"
+                    target="_blank" title="Link opens in a new tab" rel="noopener">
                     <h2>
                         An article on Norwegian news channel NRK on <em>The Providentz</em>.
                     </h2>
@@ -211,7 +212,7 @@
             </div>
         </div>
     </section>
-
+<!-- Content is intended to be displayed with newest item at the top.  Older items could be moved to an archive in the future-->
     <section class="content">
         <h2 class="title" id="page_4">Check out the latest news!</h2>
         <div>
@@ -228,7 +229,7 @@
         </div>
 
     </section>
-
+<!-- Following links are for the 2 most involved parties in the project, more could be added in the future following a similar structure-->
     <section class="content">
         <h2 class="title">Follow along to find out more!</h2>
         <div>
