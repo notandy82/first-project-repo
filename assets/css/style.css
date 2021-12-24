@@ -205,6 +205,10 @@ footer {
     margin-top: 30px;
 }
 
+.inline li {
+    display: inline;
+}
+
 /* Media queries */
 
 
