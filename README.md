@@ -80,6 +80,7 @@ Live demo [_here_](https://notandy82.github.io/first-project-repo/).
 - GitPod for development hosting
 - Git for version control
 - Balsamiq for initial development
+- Fontawesome for social media icons
 
 
 ## Testing
